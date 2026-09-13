@@ -1,23 +1,41 @@
-
+# Simple Interest Calculator
 
 ## About
-This repository is created as part of a GitHub learning task, demonstrating standard open-source project documentation practices along with a small utility script.
+This repository contains a Bash script that calculates **Simple Interest** based on user-provided input values.
 
-## Project Structure
-- **README.md** – Project overview and details
-- **LICENSE** – Apache License 2.0
-- **CODE_OF_CONDUCT.md** – Community behavior guidelines
-- **CONTRIBUTING.md** – Guidelines for contributing to this project
-- **simple-interest.sh** – A Bash script that calculates simple interest based on user input (Principal, Rate of Interest, Time Period)
+## How It Works
+The script `simple-interest.sh` prompts the user to enter three values:
+1. **Principal Amount** – the initial sum of money
+2. **Rate of Interest** – annual interest rate (in %)
+3. **Time Period** – duration in years
+
+It then calculates Simple Interest using the formula:
+
+Simple Interest = (Principal × Rate × Time) / 100
+
+## How to Run
+```bash
+chmod +x simple-interest.sh
+./simple-interest.sh
+```
+
+## Example
+Enter Principal Amount:
+1000
+Enter Rate of Interest (in %):
+5
+Enter Time Period (in years):
+2
+Principal Amount : 1000
+Rate of Interest : 5 %
+Time Period : 2 years
+Simple Interest : 100.00
 
 ## License
 This project is licensed under the Apache License 2.0 — see the [LICENSE](./LICENSE) file for details.
 
 ## Contributing
-Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.
 
 ## Code of Conduct
-Please review our [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) to understand the expected behavior within this community.
-
-## Author
-Maintained by Fiza123-stack.
+Please review our [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
